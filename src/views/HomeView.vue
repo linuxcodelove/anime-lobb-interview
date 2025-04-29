@@ -135,6 +135,7 @@ export default {
     ...mapGetters(["getCurrentImg", "getToken"]),
     // Format date to Day-Date-Month
     getFormattedDate() {
+      console.log("heloooooooooooo")
       const date = new Date();
       const dayOptions = { weekday: "long" };
       const monthOptions = { month: "long" };
